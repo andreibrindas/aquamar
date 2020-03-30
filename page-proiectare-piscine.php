@@ -235,7 +235,7 @@
             </div>
             <div class="right">
                 <?php
-                    echo do_shortcode('[contact-form-7 id="195" title="Contact form 1"]');
+                    echo do_shortcode('[contact-form-7 id="195" title="Formular de contact 1"]');
                 ?>
             </div>
         </div>
