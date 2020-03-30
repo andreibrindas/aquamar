@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.516" height="31.606" viewBox="0 0 48.516 31.606">
+  <g id="truck" transform="translate(0.1 -106.567)">
+    <g id="Group_396" data-name="Group 396" transform="translate(6.442 128.409)">
+      <g id="Group_395" data-name="Group 395" transform="translate(0 0)">
+        <path id="Path_537" data-name="Path 537" d="M73.1,337.067A4.832,4.832,0,1,0,77.93,341.9,4.836,4.836,0,0,0,73.1,337.067Zm0,8.053A3.221,3.221,0,1,1,76.32,341.9,3.224,3.224,0,0,1,73.1,345.12Z" transform="translate(-68.267 -337.067)" fill="#123c65" stroke="#fff" stroke-width="0.2"/>
+      </g>
+    </g>
+    <g id="Group_398" data-name="Group 398" transform="translate(33.822 128.409)">
+      <g id="Group_397" data-name="Group 397" transform="translate(0 0)">
+        <path id="Path_538" data-name="Path 538" d="M363.232,337.067a4.832,4.832,0,1,0,4.832,4.832A4.836,4.836,0,0,0,363.232,337.067Zm0,8.053a3.221,3.221,0,1,1,3.221-3.221A3.224,3.224,0,0,1,363.232,345.12Z" transform="translate(-358.4 -337.067)" fill="#123c65" stroke="#fff" stroke-width="0.2"/>
+      </g>
+    </g>
+    <g id="Group_400" data-name="Group 400" transform="translate(30.6 112.304)">
+      <g id="Group_399" data-name="Group 399">
+        <path id="Path_539" data-name="Path 539" d="M341.855,178.044l-7.247-11.274a.805.805,0,0,0-.677-.37h-8.858a.805.805,0,0,0-.805.805v20.132a.8.8,0,0,0,.805.805h3.221v-1.611h-2.416V168.011h7.613l6.882,10.705v7.816h-4.026v1.61h4.832a.8.8,0,0,0,.805-.805v-8.858A.8.8,0,0,0,341.855,178.044Z" transform="translate(-324.267 -166.4)" fill="#123c65" stroke="#fff" stroke-width="0.2"/>
+      </g>
+    </g>
+    <g id="Group_402" data-name="Group 402" transform="translate(33.822 115.525)">
+      <g id="Group_401" data-name="Group 401" transform="translate(0 0)">
+        <path id="Path_540" data-name="Path 540" d="M360.012,207.78v-5.637h6.442v-1.611h-7.247a.805.805,0,0,0-.805.805v7.247a.8.8,0,0,0,.805.805h12.079V207.78H360.012Z" transform="translate(-358.401 -200.533)" fill="#123c65" stroke="#fff" stroke-width="0.2"/>
+      </g>
+    </g>
+    <g id="Group_404" data-name="Group 404" transform="translate(0 106.667)">
+      <g id="Group_403" data-name="Group 403" transform="translate(0 0)">
+        <path id="Path_541" data-name="Path 541" d="M31.406,106.667H.805a.806.806,0,0,0-.805.805v25.769a.805.805,0,0,0,.805.805H7.247v-1.611H1.611V108.277H30.6v24.158H15.3v1.611H31.406a.8.8,0,0,0,.805-.805V107.472A.805.805,0,0,0,31.406,106.667Z" transform="translate(0 -106.667)" fill="#123c65" stroke="#fff" stroke-width="0.2"/>
+      </g>
+    </g>
+    <g id="Group_406" data-name="Group 406" transform="translate(0.805 129.215)">
+      <g id="Group_405" data-name="Group 405" transform="translate(0 0)">
+        <rect id="Rectangle_683" data-name="Rectangle 683" width="4.832" height="1.611" fill="#123c65" stroke="#fff" stroke-width="0.2"/>
+      </g>
+    </g>
+    <g id="Group_408" data-name="Group 408" transform="translate(16.911 129.215)">
+      <g id="Group_407" data-name="Group 407" transform="translate(0 0)">
+        <rect id="Rectangle_684" data-name="Rectangle 684" width="13.69" height="1.611" fill="#123c65" stroke="#fff" stroke-width="0.2"/>
+      </g>
+    </g>
+    <g id="Group_410" data-name="Group 410" transform="translate(44.29 129.215)">
+      <g id="Group_409" data-name="Group 409" transform="translate(0 0)">
+        <rect id="Rectangle_685" data-name="Rectangle 685" width="3.221" height="1.611" fill="#123c65" stroke="#fff" stroke-width="0.2"/>
+      </g>
+    </g>
+    <g id="Group_412" data-name="Group 412" transform="translate(3.221 109.888)">
+      <g id="Group_411" data-name="Group 411" transform="translate(0 0)">
+        <rect id="Rectangle_686" data-name="Rectangle 686" width="28.185" height="1.611" fill="#123c65" stroke="#fff" stroke-width="0.2"/>
+      </g>
+    </g>
+    <g id="Group_414" data-name="Group 414" transform="translate(10.469 132.436)">
+      <g id="Group_413" data-name="Group 413">
+        <rect id="Rectangle_687" data-name="Rectangle 687" width="1.611" height="1.611" fill="#123c65" stroke="#fff" stroke-width="0.2"/>
+      </g>
+    </g>
+    <g id="Group_416" data-name="Group 416" transform="translate(37.848 132.436)">
+      <g id="Group_415" data-name="Group 415">
+        <rect id="Rectangle_688" data-name="Rectangle 688" width="1.611" height="1.611" fill="#123c65" stroke="#fff" stroke-width="0.2"/>
+      </g>
+    </g>
+  </g>
+</svg>
