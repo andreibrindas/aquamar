@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/webeffro/public_html/aquamar2.webeff.ro/wp-content/themes/aquamar
+    - /bin/cp -R * $DEPLOYPATH
