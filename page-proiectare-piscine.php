@@ -45,7 +45,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" width="1921" height="108.53" viewBox="0 0 1921 108.53"><path d="M1589.868,108.53c-122.806,0-220.289-27.562-314.562-54.217l-.026-.007h-.005C1180.852,27.607,1083.214,0,960.081,0H1921V49.638c-2.765.778-5.865,1.653-10.053,2.837l-.812.23-5.155,1.456-.511.144-.007,0C1810.176,80.965,1712.683,108.53,1589.868,108.53Zm-1259.581,0c-122.808,0-220.3-27.565-314.586-54.223C10.138,52.733,5.118,51.314,0,49.872V0H960.081c-123.134,0-220.775,27.607-315.2,54.3C550.6,80.964,453.106,108.53,330.288,108.53Z" transform="translate(0 0)" fill="#fff"/></svg>
         <div class="container">
             <div class="left">
-                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/consultanta.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/executie.png" alt="">
             </div>
             <div class="right">
                 <h3 class="title t-3">Execuție</h3>
