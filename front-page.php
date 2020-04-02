@@ -163,7 +163,9 @@
                 ?>
                     <!-- Featured product card -->
                     <div class="product-item product-sm">
-                        <img src="<?php echo get_the_post_thumbnail_url($product->id);?>" alt="">
+                        <a href="<?php echo get_permalink( $product->id ) ?>">
+                            <img src="<?php echo get_the_post_thumbnail_url($product->id);?>" alt="">
+                        </a >
                         <a href="<?php echo get_permalink( $product->id ) ?>" class="title t-6"><?php echo $product->name ?></a >
                         <img src="<?php echo get_template_directory_uri(); ?>/dist/images/curved-line.svg" alt="">
                         <div class="bottom-section">
