@@ -58,7 +58,7 @@ global $product;
  *
  * @hooked wc_print_notices - 10
  */
-do_action( 'woocommerce_before_single_product' );
+// remove_action( 'woocommerce_before_single_product', 'woocommerce_output_all_notices', 10 );
 
 
 if ( post_password_required() ) {
@@ -68,12 +68,21 @@ if ( post_password_required() ) {
 
 ?>
 
-<?php woocommerce_breadcrumb(); ?>
+<?php 
+// woocommerce_breadcrumb(); 
+// do_action( 'woocommerce_before_single_product' );
+?>
+
 
 
 <h1 class="title t-4 mobile-product-title"><?php the_title() ?></h1>
 
 <div id="product-<?php the_ID(); ?>" <?php wc_product_class( '', $product ); ?>>
+<?php 
+woocommerce_breadcrumb(); 
+do_action( 'woocommerce_before_single_product' );
+?>
+
 	<div class="product-data">
 		<?php
 		/**
