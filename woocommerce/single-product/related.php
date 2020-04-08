@@ -53,7 +53,9 @@ if ( $related_products ) : ?>
 						?>
 
 						<div class="product-item product-sm">
-							<img src="<?php echo get_the_post_thumbnail_url($related_product->id);?>" alt="">
+							<a href="<?php echo get_permalink( $related_product->id ) ?>" class="product-image-link">
+								<img src="<?php echo get_the_post_thumbnail_url($related_product->id);?>" alt="">
+							</a>
 							<a href="<?php echo get_permalink( $related_product->id ) ?>" class="title t-6"><?php echo $related_product->name ?></a>
 							<img src="<?php echo get_template_directory_uri(); ?>/dist/images/curved-line.svg" alt="">
 							<div class="bottom-section">
