@@ -27,7 +27,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 ?>
 
 					<div class="product-item product-sm">
-						<a href="<?php echo get_permalink( $product->id ) ?>">
+						<a class="product-image-link" href="<?php echo get_permalink( $product->id ) ?>">
                         	<img src="<?php echo get_the_post_thumbnail_url($product->id);?>" alt="">
 						</a>
                         <a href="<?php echo get_permalink( $product->id ) ?>" class="title t-6"><?php echo $product->name ?></a>

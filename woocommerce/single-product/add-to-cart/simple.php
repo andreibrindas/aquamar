@@ -27,6 +27,22 @@ echo wc_get_stock_html( $product ); // WPCS: XSS ok.
 
 if ( $product->is_in_stock() ) : ?>
 	<?php do_action( 'woocommerce_before_add_to_cart_form' ); ?>
+	<?php 
+        // Compatibility for WC versions from 2.5.x to 3.0+
+        if ( method_exists( $product, 'get_stock_status' ) ) {
+            $stock_status = $product->get_stock_status(); // For version 3.0+
+        } else {
+            $stock_status = $product->stock_status; // Older than version 3.0
+        }
+		// echo ' '.$stock_status;
+		
+		if ( $stock_status == 'instock' ) {?>
+			<p class="in-stock"> În stoc</p>
+		<?php
+		} else if ( $stock_status == 'outofstock' ) { ?>
+			<p class="out-of-stock"> Fără stoc</p>
+		<?php }
+	?>
 	
 	<form class="cart simple-product-form" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $product->get_permalink() ) ); ?>" method="post" enctype='multipart/form-data'>
 		<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
