@@ -41,3 +41,6 @@ if ( ! is_a( $product, 'WC_Product' ) ) {
 
 	<?php do_action( 'woocommerce_widget_product_item_end', $args ); ?>
 </li>
+
+
+
