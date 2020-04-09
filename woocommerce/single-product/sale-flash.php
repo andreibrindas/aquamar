@@ -24,17 +24,9 @@ global $post, $product;
 ?>
 <?php if ( $product->is_on_sale() ) : ?>
 
-	<?php
-		
-		$new_price = $product->price;
-		$regular_price = $product->regular_price;
-		// echo $new_price;
 
-		$price = '-' . round( 100 - ( $new_price / $regular_price * 100 ), 1 ) . '%';
-		
-	?>	
 
-	<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="onsale">' . esc_html__( $price, 'woocommerce' ) . '</span>', $post, $product ); ?>
+	<?php echo apply_filters( 'woocommerce_sale_flash', '<span class="onsale">' . esc_html__( '-', 'woocommerce' ) . '</span>', $post, $product ); ?>
 
 	<?php
 endif;
