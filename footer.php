@@ -26,7 +26,7 @@
                         <ul>
                             <li><a href="#">Termeni și condiții</a></li>
                             <li><a href="#">Politica cookies</a></li>
-                            <li><a href="#">A.N.P.C.</a></li>
+                            <li><a href="https://anpc.ro/">A.N.P.C.</a></li>
                             <li><a href="#">Protecția datelor</a></li>
                         </ul>
                     </div>
@@ -35,7 +35,8 @@
                         <ul>
                             <li><a href="tel:0755555555">Tel: 0755 555 555</a></li>
                             <li><a href="mailto:office@aquamar.ro">Email: office@aquamar.ro</a></li>
-                            <li><a href="#">Adresă: vezi pe hartă</a></li>
+                            <li><a>Adresă: Parc Industrial UTA, <br> Hala 45, Arad, Romania</a></li>
+                            <li><a href="#">Vezi pe hartă</a></li>
                         </ul>
                     </div>
                 </div>

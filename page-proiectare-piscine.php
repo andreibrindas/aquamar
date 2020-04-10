@@ -5,13 +5,13 @@
     <section class="hero-section">
         <div class="upper-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/hero-proiectare-piscine.jpg')"></div>
         <div class="lower-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/lines.jpg')">
-            <h1 class="title t-1">Proiectare <span>piscine</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Iure, ullam.</p>
-            <a href="#" class="btn light-blue">Află mai multe</a>
+            <h1 class="title t-1">Consultanță, proiectare <br> și construcție <span>piscine</span></h1>
+            <p>Noi te ajutăm să îți transformi în realitate piscina mult visată!</p>
+            <a href="#consultanta" class="btn light-blue">Află mai multe</a>
         </div>
     </section>
 
-    <section class="consultanta">
+    <section class="consultanta" id="consultanta">
 
         <svg xmlns="http://www.w3.org/2000/svg" width="1921" height="108.53" viewBox="0 0 1921 108.53"><path d="M1589.868,108.53c-122.806,0-220.289-27.562-314.562-54.217l-.026-.007h-.005C1180.852,27.607,1083.214,0,960.081,0H1921V49.638c-2.765.778-5.865,1.653-10.053,2.837l-.812.23-5.155,1.456-.511.144-.007,0C1810.176,80.965,1712.683,108.53,1589.868,108.53Zm-1259.581,0c-122.808,0-220.3-27.565-314.586-54.223C10.138,52.733,5.118,51.314,0,49.872V0H960.081c-123.134,0-220.775,27.607-315.2,54.3C550.6,80.964,453.106,108.53,330.288,108.53Z" transform="translate(0 0)" fill="#fff"/></svg>
         <div class="container">
@@ -57,12 +57,12 @@
     </section>
 
     <section class="cta-section">
-        <a href="#" class="btn light-blue">Află mai multe</a>
+        <a href="#contact" class="btn light-blue">Cere o ofertă</a>
     </section>
 
     <section class="motive">
-        <h2 class="title t-2"><span>De ce</span> să construiești <br> piscina ta cu noi</h2>
-        <p class="small">Îți oferim 8 motive pentru care credem că bla bla bla</p>
+        <h2 class="title t-2">De ce să construiești <br> piscina ta <span>cu noi</span></h2>
+        <p class="small">Câteva din motivele pentru care noi suntem partenerul potrivit pentru tine! <br> Pentru mai multe detalii și informații, solicită o ofertă personalizată.</p>
 
         <div class="motive-content">
             <div class="motiv">
@@ -102,10 +102,9 @@
 
     <section class="oferta" style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/cere-oferta.jpg')">
         <h2 class="title t-2">
-            Cere ofertă personalizată <br> pentru proiectul tău
+        Solicită o ofertă personalizată <br> pentru noua ta piscină!
         </h2>
-        <p class="small">Lorem ipsum dolor sit amet.</p>
-        <a href="#" class="btn light-blue">Află mai multe</a>
+        <a href="#contact" class="btn light-blue">Vreau o ofertă</a>
     </section>
 
     <section class="pachete">
@@ -222,7 +221,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="left">
                 <h2 class="title t-2">

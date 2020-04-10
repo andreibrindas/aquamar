@@ -27,6 +27,9 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 ?>
 
 					<div class="product-item product-sm">
+					<?php
+do_action( 'woocommerce_before_shop_loop_item' );
+					?>
 						<a class="product-image-link" href="<?php echo get_permalink( $product->id ) ?>">
                         	<img src="<?php echo get_the_post_thumbnail_url($product->id);?>" alt="">
 						</a>

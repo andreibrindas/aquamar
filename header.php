@@ -12,7 +12,7 @@
     <div class="blue-bar-section ">
         <div class="container flex row justify-between align-center">
             <div class="header-left">
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                <a>Partenerul tău de încredere în domeniul piscinelor.</a>
             </div>
             <div class="header-right">
                 <a href="#">
@@ -36,7 +36,10 @@
              </div>
              <div class="header-right">
                 <div class="search">
-                    <?php get_search_form() ?>
+                    <?php 
+                        // get_search_form();
+                        echo do_shortcode('[wcas-search-form]');
+                    ?>
                 </div>
                 <div class="log-in">
                     <?php if ( is_user_logged_in() ) { ?>
