@@ -38,7 +38,8 @@
                 <div class="search">
                     <?php 
                         // get_search_form();
-                        echo do_shortcode('[wcas-search-form]');
+                        echo do_shortcode('[wcas-search-form]'); 
+                        
                     ?>
                 </div>
                 <div class="log-in">
