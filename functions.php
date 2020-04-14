@@ -729,3 +729,32 @@ function bbloomer_show_sale_percentage_loop() {
    }
    if ( $max_percentage > 0 ) echo "<div class='sale-perc'>-" . round($max_percentage) . "%</div>"; 
 }
+
+
+add_filter('woocommerce_checkout_fields', 'custom_woocommerce_billing_fields', 10, 1);
+
+function custom_woocommerce_billing_fields($fields)
+{
+
+    $fields['billing']['billing_cif'] = array(
+        'label' => __('CIF', 'woocommerce'), // Add custom field label
+        'placeholder' => _x('CIF....', 'placeholder', 'woocommerce'), // Add custom field placeholder
+        'required' => false, // if field is required or not
+        'clear' => false, // add clear or not
+        'type' => 'text', // add field type
+        'class' => array('my-css'),    // add class name
+        'priority' => 30
+    );
+
+
+    return $fields;
+    // print("<pre>");
+    // print_r($fields);
+    // print("</pre>");
+}
+
+add_action( 'woocommerce_admin_order_data_after_billing_address', 'my_custom_checkout_field_display_admin_order_meta', 10, 1 );
+
+function my_custom_checkout_field_display_admin_order_meta($order){
+    echo '<p><strong>'.__('CIF companie').':</strong> ' . get_post_meta( $order->get_id(), '_billing_cif', true ) . '</p>';
+}
