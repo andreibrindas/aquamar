@@ -737,7 +737,7 @@ function custom_woocommerce_billing_fields($fields)
 
     $fields['billing']['billing_cif'] = array(
         'label' => __('CIF', 'woocommerce'), // Add custom field label
-        'placeholder' => _x('CIF....', 'placeholder', 'woocommerce'), // Add custom field placeholder
+        'placeholder' => _x('', 'placeholder', 'woocommerce'), // Add custom field placeholder
         'required' => false, // if field is required or not
         'clear' => false, // add clear or not
         'type' => 'text', // add field type
@@ -768,4 +768,20 @@ function bbloomer_new_badge_shop_page() {
    if ( ( time() - ( 60 * 60 * 24 * $newness_days ) ) < $created ) {
       echo '<span class="new">' . esc_html__( 'New!', 'woocommerce' ) . '</span>';
    }
+}
+
+// Woocommerce checkbox for newsletter
+add_action( 'woocommerce_review_order_before_submit', 'add_newsletter_subscription', 9 );
+    
+function add_newsletter_subscription() {
+   
+woocommerce_form_field( 'gdpr_3381', array(
+  'type'          => 'checkbox',
+  'class'         => array('form-row privacy'),
+  'label_class'   => array('woocommerce-form__label woocommerce-form__label-for-checkbox checkbox'),
+  'input_class'   => array('woocommerce-form__input woocommerce-form__input-checkbox input-checkbox'),
+  'required'      => 0,
+  'label'         => 'Sunt de acord ca datele mele să fie prelucrate de Aquamar Solutions',
+)); 
+   
 }
