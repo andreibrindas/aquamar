@@ -55,17 +55,6 @@ function aquamar_widgets_init() {
 }
 add_action( 'widgets_init', 'aquamar_widgets_init' );
 
-add_filter( 'document_title_parts', function( $title )
-{
-    if ( is_search() ) 
-        $title['title'] = sprintf( 
-            esc_html__( 'Rezultatele căutării pentru &#8220;%s&#8221;', 'aquamar' ), 
-            get_search_query() 
-        );
-
-    return $title;
-} );
-
 //////////////////
 // Woocommerce //
 ////////////////
