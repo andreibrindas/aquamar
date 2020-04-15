@@ -55,7 +55,16 @@ function aquamar_widgets_init() {
 }
 add_action( 'widgets_init', 'aquamar_widgets_init' );
 
+add_filter( 'document_title_parts', function( $title )
+{
+    if ( is_search() ) 
+        $title['title'] = sprintf( 
+            esc_html__( 'Rezultatele căutării pentru &#8220;%s&#8221;', 'aquamar' ), 
+            get_search_query() 
+        );
 
+    return $title;
+} );
 
 //////////////////
 // Woocommerce //
@@ -757,4 +766,16 @@ add_action( 'woocommerce_admin_order_data_after_billing_address', 'my_custom_che
 
 function my_custom_checkout_field_display_admin_order_meta($order){
     echo '<p><strong>'.__('CIF companie').':</strong> ' . get_post_meta( $order->get_id(), '_billing_cif', true ) . '</p>';
+}
+
+
+add_action( 'woocommerce_before_shop_loop_item', 'bbloomer_new_badge_shop_page', 3 );
+          
+function bbloomer_new_badge_shop_page() {
+   global $product;
+   $newness_days = 30;
+   $created = strtotime( $product->get_date_created() );
+   if ( ( time() - ( 60 * 60 * 24 * $newness_days ) ) < $created ) {
+      echo '<span class="new">' . esc_html__( 'New!', 'woocommerce' ) . '</span>';
+   }
 }
