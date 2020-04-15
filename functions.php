@@ -59,6 +59,7 @@ add_action( 'widgets_init', 'aquamar_widgets_init' );
 // Woocommerce //
 ////////////////
 
+
 // Add woocommerce support for the theme
 function aquamar_add_woocommerce_support() {
     add_theme_support( 'woocommerce' );
