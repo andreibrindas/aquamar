@@ -1,0 +1,170 @@
+.woocommerce-account {
+  #customer_login {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-around;
+  }
+  .woocommerce {
+    margin: 50px 0;
+
+    .woocommerce-privacy-policy-link {
+      color: $light-blue;
+    }
+
+    .u-columns {
+      display: flex;
+      flex-wrap: wrap;
+      //   justify-content: space-around;
+    }
+
+    .u-column1,
+    .u-column2 {
+      max-width: 400px;
+      float: none;
+
+      form {
+        input {
+          padding: 10px 15px;
+          border: 1px solid $main-blue;
+          border-radius: 8px;
+        }
+
+        .form-row {
+          display: flex;
+          flex-direction: column;
+
+          button {
+            margin-top: 10px;
+            float: none;
+            background-color: $main-blue;
+            color: white;
+            border-radius: 8px;
+            transition: 0.2s all;
+            border: 2px solid $main-blue;
+
+            &:hover {
+              background-color: white;
+              color: $main-blue;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .account-dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    p {
+      margin-bottom: 20px;
+    }
+
+    .woocommerce-MyAccount-navigation {
+      width: 25%;
+
+      ul {
+        padding-left: 0;
+        list-style-type: none;
+
+        .woocommerce-MyAccount-navigation-link {
+          font-size: 1.3rem;
+          font-weight: 600;
+          padding-top: 10px;
+          padding-right: 20px;
+          margin-bottom: 24px;
+
+          a {
+            &:hover {
+              cursor: pointer;
+              padding-bottom: 2px;
+              border-bottom: 1px solid $main-blue;
+            }
+          }
+        }
+
+        .is-active {
+          a {
+            color: $light-blue;
+
+            &:hover {
+              border: none;
+            }
+          }
+        }
+      }
+    }
+
+    .woocommerce-Addresses {
+      display: flex;
+      flex-direction: column;
+    }
+    .woocommerce-Address {
+      width: 100%;
+      //   max-width: 100%;
+      margin-top: 20px;
+      margin-bottom: 50px;
+
+      header {
+        font-size: 1.4rem;
+        border-bottom: none;
+        margin-bottom: 10px;
+
+        .edit {
+          color: white;
+          background-color: $main-blue;
+          border: 2px solid $main-blue;
+          padding: 8px 12px;
+          border-radius: 8px;
+          font-size: 1.2rem;
+          transition: 0.2s all;
+
+          &:hover {
+            color: $main-blue;
+            background-color: white;
+          }
+        }
+      }
+
+      address {
+        border: none;
+        padding: 20px 0;
+      }
+    }
+
+    .edit-account {
+      p {
+        input {
+          padding: 10px 15px;
+          border: 1px solid $main-blue;
+          border-radius: 8px;
+        }
+      }
+
+      fieldset {
+        border: none;
+        label {
+          margin-bottom: 7px;
+        }
+
+        legend {
+          font-size: 1.2rem;
+          font-weight: 600;
+        }
+      }
+
+      button {
+        width: 100%;
+        color: white;
+        background-color: $main-blue;
+        border: 2px solid $main-blue;
+        border-radius: 8px;
+
+        &:hover {
+          color: $main-blue;
+          background-color: white;
+        }
+      }
+    }
+  }
+}

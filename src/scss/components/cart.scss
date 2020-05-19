@@ -1,0 +1,17 @@
+.woocommerce-cart {
+  .woocommerce {
+    h1 {
+      margin: 30px 0;
+    }
+
+    .wc-proceed-to-checkout {
+      .checkout-button {
+        background-color: $main-blue;
+
+        &:hover {
+          background-color: $light-blue;
+        }
+      }
+    }
+  }
+}

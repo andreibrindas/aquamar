@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
+
+$main-blue: #123c65;
+$light-blue: #0db1cb;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: $main-blue;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+html {
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.t-1 {
+  font-size: 3.7rem;
+}
+
+.t-2 {
+  font-size: 3.2rem;
+}
+
+.t-3 {
+  font-size: 2.7rem;
+}
+
+.t-4 {
+  font-size: 1.8rem;
+}
+
+.t-5 {
+  font-size: 1.5rem;
+}
+
+.t-6 {
+  font-size: 1.1rem;
+}
+
+.L {
+  font-size: 1.1rem;
+}
+
+.XL {
+  font-size: 1.4rem;
+}
+
+.S {
+  font-size: 0.88rem;
+}
+
+.small {
+  color: #618db8;
+}
+
+.btn {
+  width: 250px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+  color: white;
+}
+
+.dark-blue {
+  background-color: $main-blue;
+  border: 2px solid $main-blue;
+
+  &:hover {
+    background-color: white;
+    color: $main-blue;
+
+    svg {
+      path {
+        fill: $main-blue;
+      }
+    }
+  }
+}
+
+.light-blue {
+  background-color: $light-blue;
+  border: 3px solid $light-blue;
+
+  &:hover {
+    background-color: white;
+    color: $light-blue;
+  }
+}
+
+.product-item {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #b9c6d2;
+
+  .new {
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    padding: 7px 20px;
+    border-radius: 88px 88px 0 88px;
+    background-color: $light-blue;
+    color: white;
+  }
+
+  .product-image-link {
+    padding: 20px 0;
+    height: 70%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a.title {
+    height: 70px;
+    // margin: 20px 0;
+    font-weight: 600;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .bottom-section {
+    width: 100%;
+    // margin-bottom: 20px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .small {
+      color: $main-blue;
+      font-size: 0.77rem;
+    }
+
+    .current-price {
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+
+    .reduced-price {
+      color: #8699ab;
+      font-size: 0.88rem;
+      text-decoration: line-through;
+    }
+
+    .add-to-cart {
+      .btn {
+        width: 110px;
+        height: 40px;
+        font-size: 0.88rem;
+      }
+    }
+  }
+}
+
+.product-sm {
+  width: 21%;
+  margin: 0 10px;
+}
+
+.related-products-container {
+  width: 100%;
+  display: flex;
+  // justify-content: space-between;
+}
+
+.woocommerce-notices-wrapper {
+  .woocommerce-message {
+    border-top: none;
+    border-radius: 8px;
+    top: 50%;
+    background-color: #ceeff5;
+    color: $main-blue;
+    display: flex;
+    align-items: center;
+
+    &:before {
+      color: $main-blue;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .button {
+      position: absolute;
+      right: 20px;
+      background-color: #ceeff5;
+      color: $light-blue;
+      border: 1px solid $light-blue;
+      justify-self: flex-end;
+
+      &:hover {
+        color: white;
+        background-color: $light-blue;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  html {
+    font-size: 14px;
+  }
+}
