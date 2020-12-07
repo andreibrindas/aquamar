@@ -53,7 +53,7 @@
                 <div class="newsletter__form">
 					<div class="newsletter-popup">
 						<div class="newsletter-overlay"></div>
-						<?php echo do_shortcode('[contact-form-7 id="216" title="Newsletter"]') ?>
+						<?php echo do_shortcode('[contact-form-7 id="2616" title="Newsletter"]') ?>
 					</div>
 				</div>
             </div>
