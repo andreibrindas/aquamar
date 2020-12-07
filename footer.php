@@ -62,7 +62,7 @@
     <div class="credits">
         <div class="container ">
             <div class="right">
-                <p>&copy; 2020 Aquamar Solutions. Toate drepturile rezervate.</p>
+                <p>&copy; <?php echo date( "Y" ) ?> Aquamar Solutions. Toate drepturile rezervate.</p>
             </div>
             <div class="left">
                 <a href="https://webefficient.ro">
