@@ -58,7 +58,7 @@
 				</div>
             </div>
         </div>
-    </div>
+    </div> 
     <div class="credits">
         <div class="container ">
             <div class="right">
@@ -66,7 +66,7 @@
             </div>
             <div class="left">
                 <a href="https://webefficient.ro">
-                    Creat de <img src="<?php echo get_template_directory_uri(); ?>/dist/images/webeff.svg" alt="site creeat de web efficient"> Web Efficient
+                    Creat de <img src="<?php echo get_template_directory_uri(); ?>/dist/images/redouble.svg" alt="site creeat de redouble"> Redouble
                 </a>    
             </div>
         </div>
