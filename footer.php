@@ -65,7 +65,7 @@
                 <p>&copy; <?php echo date( "Y" ) ?> Aquamar Solutions. Toate drepturile rezervate.</p>
             </div>
             <div class="left">
-                <a href="https://webefficient.ro">
+                <a href="https://redouble.ro" target="blank">
                     Creat de <img src="<?php echo get_template_directory_uri(); ?>/dist/images/redouble.png" alt="site creeat de redouble"> Redouble
                 </a>    
             </div>
