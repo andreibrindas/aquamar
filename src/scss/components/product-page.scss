@@ -10,12 +10,12 @@
 }
 
 .sidebar-support {
-  height: 100%;
+  height: calc(100vh - 129px);
   width: 19%;
   // padding: 70px 0;
   position: fixed;
   right: 0;
-  // top: 20%;
+  top: 129px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,8 +33,12 @@
   }
 
   .bottom {
-    margin-top: 35%;
+    // margin-top: 35%;
     // padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 
     .item {
       display: flex;
@@ -94,6 +98,10 @@
     margin-bottom: 10px;
     font-weight: 600;
     color: $light-blue;
+
+    bdi {
+      color: $light-blue;
+    }
 
     .woocommerce-Price-currencySymbol {
       color: $light-blue;
@@ -181,11 +189,12 @@
     }
     .in-stock {
       display: inline-flex;
+      font-size: 13px;
       margin: 10px 0;
-      padding: 5px;
+      padding: 3px 8px;
       border-radius: 8px;
       color: white;
-      background-color: $light-blue;
+      background-color: $main-blue;
     }
 
     p.price {
@@ -201,7 +210,8 @@
     }
     div.summary {
       float: none;
-      width: 40%;
+      width: 33%;
+      margin-right: 11rem;
       .woocommerce-product-details__short-description {
         margin: 20px 0;
       }
@@ -230,7 +240,7 @@
     .cart {
       .button {
         width: 68%;
-        height: 80px;
+        height: 60px;
         border-radius: 8px;
         background-color: $light-blue;
 
@@ -249,7 +259,7 @@
         position: relative;
         input {
           width: 100%;
-          height: 80px;
+          height: 60px;
           border: none;
           border-radius: 8px;
           color: $main-blue;
@@ -316,9 +326,10 @@
       margin-top: 70px;
       display: flex;
       flex-direction: column;
+      width: 65%;
       div.quantity {
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
 
         input {
           font-size: 1.3rem;

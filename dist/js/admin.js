@@ -104,7 +104,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Andrei\Local Sites\aquamar\app\public\wp-content\themes\aquamar\src\js\admin.js */"./src/js/admin.js");
+module.exports = __webpack_require__(/*! C:\Users\filip\Local Sites\aquamar\app\public\wp-content\themes\aqua\src\js\admin.js */"./src/js/admin.js");
 
 
 /***/ })

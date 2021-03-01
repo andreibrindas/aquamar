@@ -1,7 +1,7 @@
 // Slick sliders
 
-(function($) {
-  $(document).ready(function() {
+(function ($) {
+  $(document).ready(function () {
     // Slick slider pentru Produse recomandate
     $(".recomandate-gallery").slick({
       dots: true,
@@ -15,25 +15,25 @@
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: true
-          }
+            dots: true,
+          },
         },
         {
           breakpoint: 800,
           settings: {
             slidesToShow: 2,
-            slidesToScroll: 2
-          }
+            slidesToScroll: 2,
+          },
         },
         {
           breakpoint: 600,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            dots: false
-          }
-        }
-      ]
+            dots: false,
+          },
+        },
+      ],
     });
 
     // Slick slider pentru pachete intretinere
@@ -46,22 +46,22 @@
         {
           breakpoint: 1600,
           settings: {
-            centerPadding: "200px"
-          }
+            centerPadding: "200px",
+          },
         },
         {
           breakpoint: 1250,
           settings: {
-            centerPadding: "100px"
-          }
+            centerPadding: "100px",
+          },
         },
         {
           breakpoint: 1000,
           settings: {
             centerMode: true,
             arrows: false,
-            centerPadding: "500px"
-          }
+            centerPadding: "500px",
+          },
         },
         {
           breakpoint: 850,
@@ -69,8 +69,8 @@
             arrows: false,
             centerMode: true,
             centerPadding: "100px",
-            slidesToShow: 1
-          }
+            slidesToShow: 1,
+          },
         },
         {
           breakpoint: 480,
@@ -78,16 +78,16 @@
             arrows: false,
             centerMode: true,
             centerPadding: "40px",
-            slidesToShow: 1
-          }
-        }
-      ]
+            slidesToShow: 1,
+          },
+        },
+      ],
     });
 
     $(".blog-mobil-gallery").slick({
       slidesToShow: 1,
       infinite: true,
-      slidesToScroll: 1
+      slidesToScroll: 1,
     });
 
     // $(".related-products-container").slick({
