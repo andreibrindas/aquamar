@@ -66,7 +66,7 @@
             </div>
             <div class="left">
                 <a href="https://webefficient.ro">
-                    Creat de <img src="<?php echo get_template_directory_uri(); ?>/dist/images/redouble.svg" alt="site creeat de redouble"> Redouble
+                    Creat de <img src="<?php echo get_template_directory_uri(); ?>/dist/images/redouble.png" alt="site creeat de redouble"> Redouble
                 </a>    
             </div>
         </div>
