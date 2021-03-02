@@ -201,11 +201,11 @@
     </div>
 </section>
 
-<section class="pachete">
+<!-- <section class="pachete">
     <h2 class="title t-2">Pachete întreținere piscine</h2>
 
     <div class="pachete-gallery">
-        <div class="pachet" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/pachet-1.jpg')">
+        <div class="pachet" style="background-image: url('<?php// echo get_template_directory_uri(); ?>/dist/images/pachet-1.jpg')">
             <div class="description">
                 <a href="#" class="title t-4">Pachet 1</a>
                 <p class="text">
@@ -213,7 +213,7 @@
                 </p>
             </div>
         </div>
-        <div class="pachet" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/pachet-2.jpg')">
+        <div class="pachet" style="background-image: url('<?php //echo get_template_directory_uri(); ?>/dist/images/pachet-2.jpg')">
             <div class="description">
                 <a href="#" class="title t-4">Pachet 2</a>
                 <p class="text">
@@ -221,7 +221,7 @@
                 </p>
             </div>
         </div>
-        <div class="pachet" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/images/pachet-3.jpg')">
+        <div class="pachet" style="background-image: url('<?php //echo get_template_directory_uri(); ?>/dist/images/pachet-3.jpg')">
             <div class="description">
                 <a href="#" class="title t-4">Pachet 3</a>
                 <p class="text">
@@ -236,34 +236,34 @@
     <h2 class="title t-2">Ultimele noutăți</h2>
     <div class="container blog-desktop">
         <?php 
-            $the_query =  new WP_Query( 'posts_per_page=4' ); 
-            while ( $the_query->have_posts() ) : $the_query->the_post();
+            // $the_query =  new WP_Query( 'posts_per_page=4' ); 
+            // while ( $the_query->have_posts() ) : $the_query->the_post();
         ?>
             <div class="blog-post-entry">
-                <img src="<?php the_post_thumbnail_url() ?>" alt="">
-                <h5 class="title t-6"><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h5>
+                <img src="<?php //the_post_thumbnail_url() ?>" alt="">
+                <h5 class="title t-6"><a href="<?php //the_permalink() ?>"><?php// the_title() ?></a></h5>
                 <p class="text">
-                    <?php echo wp_trim_words(get_the_content(), 18)  ?>
+                    <?php //echo wp_trim_words(get_the_content(), 18)  ?>
                 </p>
-                <a href="<?php the_permalink(); ?>" class="link">CITEȘTE MAI MULT</a>
+                <a href="<?php //the_permalink(); ?>" class="link">CITEȘTE MAI MULT</a>
             </div>
-        <?php endwhile; ?>
+        <?php //endwhile; ?>
     </div>
     <div class="container blog-mobil-gallery">
         <?php 
-            $the_query =  new WP_Query( 'posts_per_page=4' ); 
-            while ( $the_query->have_posts() ) : $the_query->the_post();
+            // $the_query =  new WP_Query( 'posts_per_page=4' ); 
+            // while ( $the_query->have_posts() ) : $the_query->the_post();
         ?>
             <div class="blog-post-entry">
-                <img src="<?php the_post_thumbnail_url() ?>" alt="">
-                <h5 class="title t-6"><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h5>
+                <img src="<?php //the_post_thumbnail_url() ?>" alt="">
+                <h5 class="title t-6"><a href="<?php// the_permalink() ?>"><?php// the_title() ?></a></h5>
                 <p class="text">
-                    <?php echo wp_trim_words(get_the_content(), 18)  ?>
+                    <?php// echo wp_trim_words(get_the_content(), 18)  ?>
                 </p>
-                <a href="<?php the_permalink(); ?>" class="link">CITEȘTE MAI MULT</a>
+                <a href="<?php// the_permalink(); ?>" class="link">CITEȘTE MAI MULT</a>
             </div>
-        <?php endwhile; ?>
+        <?php// endwhile; ?>
     </div>
-</section>
+</section> -->
 
 <?php get_footer(); ?>
