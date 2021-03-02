@@ -766,7 +766,7 @@ function bbloomer_new_badge_shop_page() {
    $newness_days = 30;
    $created = strtotime( $product->get_date_created() );
    if ( ( time() - ( 60 * 60 * 24 * $newness_days ) ) < $created ) {
-      echo '<span class="new">' . esc_html__( 'New!', 'woocommerce' ) . '</span>';
+      echo '<span class="new">' . esc_html__( 'Nou!', 'woocommerce' ) . '</span>';
    }
 }
 
