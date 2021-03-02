@@ -116,6 +116,10 @@
     margin: 100px 0;
     display: flex;
     justify-content: space-between;
+
+    .product-item {
+      height: 450px;
+    }
   }
 }
 
