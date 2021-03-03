@@ -38,12 +38,12 @@ do_action( 'woocommerce_before_shop_loop_item' );
                         <div class="bottom-section">
                             <div class="price-container">
                                     <p class="small">de la</p>
-                                    <p class="current-price"><?php echo $product->price ?> lei</p>
+                                    <p class="current-price"><?php echo $product->get_price() ?> lei</p>
                                     <?php 
                                         if ( $product->is_on_sale() ){
                                             ?>
                                                 <p class="reduced-price">
-                                                <?php echo $product->regular_price; ?> lei
+                                                	<?php echo $product->get_regular_price(); ?> lei
                                                 </p>
                                             <?php
                                             
