@@ -43,7 +43,7 @@ do_action( 'woocommerce_before_shop_loop_item' );
                                         if ( $product->is_on_sale() ){
                                             ?>
                                                 <p class="reduced-price"> 
-                                                	<?php echo $product->get_regular_price(); ?> lei
+                                                	<?php echo $product->get_regular_price(); ?> lei 
                                                 </p>
                                             <?php
                                             
