@@ -3,7 +3,7 @@
 <section class="hero" style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/hero-image.jpg')">
     <h1 class="title t-1">Totul pentru piscina ta</h1>
     <p class="L">Descoperă cea mai variată gamă de produse speciale pentru piscină, de la construcție și decor, până la soluții de întreținere</p>
-    <a href="/product-category/piscine/" class="btn light-blue">Vezi produsele</a>
+    <a href="/produse/piscine/" class="btn light-blue">Vezi produsele</a>
 </section>
 
 <section class="featured">

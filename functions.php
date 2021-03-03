@@ -785,3 +785,13 @@ woocommerce_form_field( 'gdpr_3381', array(
 )); 
    
 }
+
+
+// $aqua_includes = array(
+// 	// '/siebar-categories-widget.php',
+
+// );
+
+// foreach ( $aqua_includes as $file ) {
+// 	require_once get_template_directory() . '/inc' . $file;
+// }
