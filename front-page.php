@@ -12,18 +12,18 @@
         <div class="featured-products">
 
             <div class="featured-product-big" style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/linere-mozaic.jpg')">
-                <a  href="<?php echo get_home_url(); ?>/product-category/piscine/finisare-piscine/">
+                <a  href="<?php echo get_home_url(); ?>/produse/piscine/finisare-piscine/">
                 <span class="image-link"></span>
                 </a>   
                 <div class="link-container">
                     <div class="highlight">
                         <div class="top">
-                            <a class="title t-5" href="<?php echo get_home_url(); ?>/product-category/piscine/finisare-piscine/">Linere și mozaic</a>
+                            <a class="title t-5" href="<?php echo get_home_url(); ?>/produse/piscine/finisare-piscine/">Linere și mozaic</a>
                         </div>
                         <div class="bottom">
-                            <a class="S" href="<?php echo get_home_url(); ?>/product-category/piscine/finisare-piscine/liner/">Linere</a>
+                            <a class="S" href="<?php echo get_home_url(); ?>/produse/piscine/finisare-piscine/liner/">Linere</a>
                             <i>&bull;</i>
-                            <a class="S" href="<?php echo get_home_url(); ?>/product-category/piscine/finisare-piscine/mozaic-si-gresie/">Mozaic și gresie</a>
+                            <a class="S" href="<?php echo get_home_url(); ?>/produse/piscine/finisare-piscine/mozaic-si-gresie/">Mozaic și gresie</a>
                         </div>
                     </div>
                 </div>
@@ -34,22 +34,22 @@
                 <h6 class="title t-6">
                     Linere și mozaic
                 </h6>
-                <a href="<?php echo get_home_url(); ?>/product-category/piscine/finisare-piscine/">Vezi produse</a>
+                <a href="<?php echo get_home_url(); ?>/produse/piscine/finisare-piscine/">Vezi produse</a>
             </div>
             
             <div class="featured-product-big" style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/pompe.jpg')">
-                <a  href="<?php echo get_home_url(); ?>/product-category/piscine/incalzire-piscine/">
+                <a  href="<?php echo get_home_url(); ?>/produse/piscine/incalzire-piscine/">
                     <span class="image-link"></span>
                 </a>   
                 <div class="link-container">
                     <div class="highlight">
                         <div class="top">
-                            <a class="title t-5" href="<?php echo get_home_url(); ?>/product-category/piscine/incalzire-piscine/">Pompe încălzire</a>
+                            <a class="title t-5" href="<?php echo get_home_url(); ?>/produse/piscine/incalzire-piscine/">Pompe încălzire</a>
                         </div>
                         <div class="bottom">
-                            <a class="S" href="<?php echo get_home_url(); ?>/product-category/piscine/incalzire-piscine/pompa-caldura-aer-apa/">Pompe căldură aer</a>
+                            <a class="S" href="<?php echo get_home_url(); ?>/produse/piscine/incalzire-piscine/pompa-caldura-aer-apa/">Pompe căldură aer</a>
                             <i>&bull;</i>
-                            <a class="S" href="<?php echo get_home_url(); ?>/product-category/piscine/incalzire-piscine/incalzitoare-electrice/">Încălzitoare electrice</a>
+                            <a class="S" href="<?php echo get_home_url(); ?>/produse/piscine/incalzire-piscine/incalzitoare-electrice/">Încălzitoare electrice</a>
                         </div>
                     </div>
                 </div>
@@ -58,22 +58,22 @@
                 <h6 class="title t-6">
                     Pompe încălzire
                 </h6>
-                <a href="<?php echo get_home_url(); ?>/product-category/piscine/incalzire-piscine/">Vezi produse</a>
+                <a href="<?php echo get_home_url(); ?>/produse/piscine/incalzire-piscine/">Vezi produse</a>
             </div>
             
             <div class="featured-product-small" style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/divertisment.jpg')">
-                <a  href="<?php echo get_home_url(); ?>/product-category/piscine/atractii-piscine/">
+                <a  href="<?php echo get_home_url(); ?>/produse/piscine/atractii-piscine/">
                 <span class="image-link"></span>
                 </a>   
                 <div class="link-container">
                     <div class="highlight">
                         <div class="top">
-                            <a class="title t-5" href="<?php echo get_home_url(); ?>/product-category/piscine/atractii-piscine/">Divertisment</a>
+                            <a class="title t-5" href="<?php echo get_home_url(); ?>/produse/piscine/atractii-piscine/">Divertisment</a>
                         </div>
                         <div class="bottom">
-                            <a class="S" href="<?php echo get_home_url(); ?>/product-category/piscine/atractii-piscine/tobogane-mici/">Tobogane mici</a>
+                            <a class="S" href="<?php echo get_home_url(); ?>/produse/piscine/atractii-piscine/tobogane-mici/">Tobogane mici</a>
                             <i>&bull;</i>
-                            <a class="S" href="<?php echo get_home_url(); ?>/product-category/piscine/atractii-piscine/trambulina/">Trambuline</a>
+                            <a class="S" href="<?php echo get_home_url(); ?>/produse/piscine/atractii-piscine/trambulina/">Trambuline</a>
                         </div>
                     </div>
                 </div>
@@ -82,22 +82,22 @@
                 <h6 class="title t-6">
                     Divertisment
                 </h6>
-                <a href="<?php echo get_home_url(); ?>/product-category/piscine/atractii-piscine/">Vezi produse</a>
+                <a href="<?php echo get_home_url(); ?>/produse/piscine/atractii-piscine/">Vezi produse</a>
             </div>
             
             <div class="featured-product-small" style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/acoperire-piscine.jpg')">
-                <a  href="<?php echo get_home_url(); ?>/product-category/piscine/acoperire-piscine/">
+                <a  href="<?php echo get_home_url(); ?>/produse/piscine/acoperire-piscine/">
                 <span class="image-link"></span>
                 </a>   
                 <div class="link-container">
                     <div class="highlight">
                         <div class="top">
-                            <a class="title t-5" href="<?php echo get_home_url(); ?>/product-category/piscine/acoperire-piscine/">Acoperire piscine</a>
+                            <a class="title t-5" href="<?php echo get_home_url(); ?>/produse/piscine/acoperire-piscine/">Acoperire piscine</a>
                         </div>
                         <div class="bottom">
-                            <a class="S" href="<?php echo get_home_url(); ?>/product-category/piscine/acoperire-piscine/prelate-si-derulatoare/">Prelate și derulatoare</a>
+                            <a class="S" href="<?php echo get_home_url(); ?>/produse/piscine/acoperire-piscine/prelate-si-derulatoare/">Prelate și derulatoare</a>
                             <i>&bull;</i>
-                            <a class="S" href="<?php echo get_home_url(); ?>/product-category/piscine/acoperire-piscine/acoperiri-retractabile/">Acoperiri retractabile</a>
+                            <a class="S" href="<?php echo get_home_url(); ?>/produse/piscine/acoperire-piscine/acoperiri-retractabile/">Acoperiri retractabile</a>
                         </div>
                     </div>
                 </div>
@@ -106,22 +106,22 @@
                 <h6 class="title t-6">
                     Acoperire piscine
                 </h6>
-                <a href="<?php echo get_home_url(); ?>/product-category/piscine/acoperire-piscine/">Vezi produse</a>
+                <a href="<?php echo get_home_url(); ?>/produse/piscine/acoperire-piscine/">Vezi produse</a>
             </div>
             
             <div class="featured-product-small" style="background-image:url('<?php echo get_template_directory_uri(); ?>/dist/images/solutii.jpg')">
-                <a  href="<?php echo get_home_url(); ?>/product-category/piscine/tratare-apa-piscine/">
+                <a  href="<?php echo get_home_url(); ?>/produse/piscine/tratare-apa-piscine/">
                 <span class="image-link"></span>
                 </a>   
                 <div class="link-container">
                     <div class="highlight">
                         <div class="top">
-                            <a class="title t-5" href="<?php echo get_home_url(); ?>/product-category/piscine/tratare-apa-piscine/">Soluții întreținere</a>
+                            <a class="title t-5" href="<?php echo get_home_url(); ?>/produse/piscine/tratare-apa-piscine/">Soluții întreținere</a>
                         </div>
                         <div class="bottom">
-                            <a class="S" href="<?php echo get_home_url(); ?>/product-category/piscine/tratare-apa-piscine/solutii-chimice-piscine/">Soluții chimice</a>
+                            <a class="S" href="<?php echo get_home_url(); ?>/produse/piscine/tratare-apa-piscine/solutii-chimice-piscine/">Soluții chimice</a>
                             <i>&bull;</i>
-                            <a class="S" href="<?php echo get_home_url(); ?>/product-category/piscine/tratare-apa-piscine/kit-tratare-apa-piscine/">Kit tratare apă piscine</a>
+                            <a class="S" href="<?php echo get_home_url(); ?>/produse/piscine/tratare-apa-piscine/kit-tratare-apa-piscine/">Kit tratare apă piscine</a>
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                 <h6 class="title t-6">
                     Soluții întreținere
                 </h6>
-                <a href="<?php echo get_home_url(); ?>/product-category/piscine/tratare-apa-piscine/">Vezi produse</a>
+                <a href="<?php echo get_home_url(); ?>/produse/piscine/tratare-apa-piscine/">Vezi produse</a>
             </div>
             
 
