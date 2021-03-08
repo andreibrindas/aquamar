@@ -10,8 +10,9 @@
                             <li><a href="/contact/">Contact </a></li>
                             <li><a href="/despre-noi/">Despre noi</a></li>
                             <li><a href="/blog/">Blog</a></li>
-                            <li><a href="/product-category/piscine/">Toate produsele</a></li>
+                            <li><a href="/produse/piscine/">Toate produsele</a></li>
                         </ul>
+                        <img src="<?php echo get_template_directory_uri(  ) ?>/dist/images/netopia.png" alt="mobilpay" style="width: 150px; background:white">
                     </div>
                     <div class="footer-menu-column">
                         <h6 class="title t-6">Informații clienți <img class="dd-arrow" src="<?php echo get_template_directory_uri(); ?>/dist/images/drop-down.png" alt=""></i></h6>
